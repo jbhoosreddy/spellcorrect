@@ -1,7 +1,9 @@
 spellcorrect
 ============
 
-A program to correct non-word spelling error in sentences using ngram MAP Language Models, Noisy Channel Model, Error Confusion Matrix and Damerau-Levenshtein Edit Distance.
+A package to correct non-word spelling error in sentences using ngram MAP Language Models, Noisy Channel Model, Error Confusion Matrix and Damerau-Levenshtein Edit Distance.
+
+I have encoded the datasets in a computer readable-form. Feel free to utilize the dataset and the ngram helper library (included) to improve this library or make your own. Or you can play with the hyper-parameters to improve your results. You can ping me on #IRC and Twitter at @jbhoosreddy if you have any questions.
 
     class SpellCorrect
      |  A program to correct non-word spelling error in sentences using ngram MAP Language Models, Noisy Channel Model, Error Confusion Matrix and Damerau-Levenshtein Edit Distance.
