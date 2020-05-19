@@ -1,5 +1,6 @@
-spellcorrect
-============
+# spellcorrect
+
+This package implements a 1990 paper **A Spelling Correction Program Based on a Noisy Channel Model** by Mark D. Kernighan, Kenneth Ward Church and William A. Gale. A copy of this paper can be found online [here](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-04/spelling90.pdf) or through a simple search.
 
 A package to correct non-word spelling error in sentences using ngram MAP Language Models, Noisy Channel Model, Error Confusion Matrix and Damerau-Levenshtein Edit Distance.
 
@@ -33,3 +34,7 @@ I have encoded the datasets in a computer readable-form. Feel free to utilize th
      |  
      |  loadDict(self)
      |      Method to load dictionary from external data file.
+
+## Confusion matrices
+
+As answered by [@lzw429](https://github.com/lzw429) in [#1](https://github.com/jbhoosreddy/spellcorrect/issues/1), the authors have provided in the appendix the computed deletion, addition, substitution and reversal matrices. I have manually transcribed this data to `.data` files which are processed in memory. The paper has more information on how this data was originally created by the authors.
